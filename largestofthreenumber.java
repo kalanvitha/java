@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class largestofthreenumber {
     public static void main(String[] args){
         int a,b,c;//declare
-        System.out.println("enter a,b, values to compare");
+        System.out.println("enter a,b,c values to compare");
         Scanner sc=new Scanner(System.in);//taking input from user
         a=sc.nextInt();//input from user storing in a,b,c
         b=sc.nextInt();
