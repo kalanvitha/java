@@ -4,7 +4,7 @@ public class largestofthreenumber {
         int a,b,c;//declare
         System.out.println("enter a,b,c values to compare");
         Scanner sc=new Scanner(System.in);//taking input from user
-        a=sc.nextInt();//input from user storing in a and b
+        a=sc.nextInt();//input from user storing in a,b,c
         b=sc.nextInt();
         c=sc.nextInt();
         if(a>b && a>c){
