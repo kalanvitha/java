@@ -6,12 +6,9 @@ public class larger {
         Scanner sc=new Scanner(System.in);//taking input from user
         a=sc.nextInt();//input from user storing in a and b
         b=sc.nextInt();
-        if(a>b){
-            System.out.println("a is larger number "+a );
-        } else{
-            System.out.println("b is larger number "+b);
+        int max=(a>b)?a:b;
+        System.out.println("Larger "+max);
             sc.close();
         }
         }
-        
-}
+    
