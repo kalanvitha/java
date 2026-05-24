@@ -4,7 +4,7 @@ public class Evenodd {
         Scanner sc=new Scanner(System.in);
         System.out.println("enter number");
         int n=sc.nextInt();
-        if(n%2==0){
+        if((n & 1) ==0){
             System.out.println("The given number is even number");
         }
             else{
